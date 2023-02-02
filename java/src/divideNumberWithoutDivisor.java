@@ -6,8 +6,8 @@ public class divideNumberWithoutDivisor {
             if (i * secondNumber == frstnumber) {
                 System.out.println(i);
             }
-            int t = i + 1;
-            if (i * secondNumber < frstnumber && t * secondNumber > frstnumber) {
+            
+            if (i * secondNumber < frstnumber && (i+1) * secondNumber > frstnumber) {
                 System.out.println(i);
             }
 
