@@ -7,7 +7,7 @@ public class ContainerWithMostWater {
         int max=-1;
         while(start<end){
          int small=   Math.min(arr[start],arr[end]);
-          //  System.out.println(small);
+           System.out.println(small);
             int water = breadth*small;
             //System.out.println(water);
             max =Math.max(max,water);
