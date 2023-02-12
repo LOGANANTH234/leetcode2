@@ -2,7 +2,9 @@ import java.util.Locale;
 
 public class DetermineifStrinHalvesAreAlike {
     public static void main(String[] args) {
-       String h ="Uo";
+       String h ="Uoo";
+       int d = h.lastIndexOf(h.charAt(1));
+        System.out.println( d);
       String s = h.toLowerCase();
         System.out.println(h);
        // System.out.println(s);
