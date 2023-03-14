@@ -2,7 +2,7 @@ import java.util.*;
 public class ArrayIntercsection {
     public static void main(String[] args) {
         int arr1[] = {4,9,5,4,4};
-        int arr2[] = {9,4,8,4};
+        int arr2[] = {9,8,4};
         int count=0;
         int y=0;
 
