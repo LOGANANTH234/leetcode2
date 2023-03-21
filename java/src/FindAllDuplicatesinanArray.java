@@ -4,7 +4,7 @@ import java.util.List;
 
 public class FindAllDuplicatesinanArray {
     public static void main(String[] args) {
-        int arr[] = {4,3,2,7,8,2,3,1};
+        int arr[] = {4,7,8,2,3,1};
         cyclicSort(arr);
         List<Integer> l= new ArrayList<>();
         System.out.println(Arrays.toString(arr));

@@ -2,7 +2,7 @@ import java.util.*;
 public class ArrayIntercsection {
     public static void main(String[] args) {
         int arr1[] = {4,9,5,4,4};
-        int arr2[] = {9,4,9,8,4,4};
+        int arr2[] = {9,8,4};
         int count=0;
         int y=0;
 
@@ -35,7 +35,7 @@ public class ArrayIntercsection {
         for(int i=0;i<arr1.length;i++){
             if(arr1[i]!=-1){
                 cc++;
-                //   System.out.println(arr1[i]);
+                //   System.out.print(arr1[i]);
             }
         }
         System.out.println(cc);
