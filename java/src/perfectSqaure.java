@@ -11,6 +11,6 @@ public class perfectSqaure {
         if(al.contains(num)){
             System.out.println("true");
         }
-       
+
     }
 }
