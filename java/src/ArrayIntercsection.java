@@ -38,7 +38,7 @@ public class ArrayIntercsection {
                 //   System.out.print(arr1[i]);
             }
         }
-        System.out.println(cc);
+     
         Arrays.sort(arr1);
         for(int i=1;i<arr1.length;i++){
             if(arr1[i]!=-1&&arr1[i-1]==arr1[i]){
